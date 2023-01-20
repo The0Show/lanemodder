@@ -1,1 +1,1 @@
-I'll write this documentation once the mod making process is finalized. But, if you want to take a stab at it now, feel free to clone the repo, check out the example mod, and roll a D20 for good luck.
+I'll write this documentation once the mod making process is finalized. But, if you want to take a stab at it now, feel free to clone the repo, check out the [PoC mod](/site/game/js/mod/poc.js), and [roll a D20 for good luck](https://media.discordapp.net/attachments/892094599932301352/1065802856222957578/image.png).
