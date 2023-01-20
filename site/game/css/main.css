@@ -1,11 +1,12 @@
 body {
 	margin: 0;
 	background-color: black;
+	color: white;
 }
 canvas {
 	margin: 0 auto;
 }
-.fontPreload{
+.fontPreload {
 	position: absolute;
 	left: -100px;
 }

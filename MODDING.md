@@ -1,0 +1,1 @@
+I'll write this documentation once the mod making process is finalized. But, if you want to take a stab at it now, feel free to clone the repo, check out the example mod, and roll a D20 for good luck.

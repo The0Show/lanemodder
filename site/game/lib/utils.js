@@ -3,10 +3,11 @@ var INITIAL_LOAD_PERCENT = 10;
 
 var fileLoadErrors = [];
 var initialized = false;
+var isDead = true;
 
 // resize handler will only be called before the game starts, forcing a reload
 function gameResizeHandler() {
-	window.location.reload();
+	if (!isDead) window.location.reload();
 }
 
 function initCAGame() {
@@ -25,7 +26,7 @@ function initCAGame() {
 	window.preloader = {};
 	var fileCounter = 0;
 	// see line 6 in index.html
-	var files = ["lib/phaser.min.js", "js/main.js"];
+	var files = ["lib/phaser.min.js", "js/main.js", "js/Loader.js"];
 	var retries = parent.window.gameBridge
 		? parent.window.gameBridge.info.numberOfRetries
 		: 1;

@@ -1,3 +1,5 @@
+var isModded = false;
+
 var LANE_0_Y = 200;
 var LANE_1_Y = 450;
 var LANE_2_Y = 710;
@@ -13,7 +15,7 @@ var PLAYER_STOP_TIME = 3000; // ms
 var STAR_POINTS = 1000;
 var SUPERSTAR_POINTS = 5000;
 var IMPERVIOUS_TIME = 10000; // ms
-var MULTIPLIER_TIME = 10000; // ms
+var MULTIPLIER_TIME = 0; // ms
 var SPEED_BOOST_TIME = 5000; // ms
 var SPAWN_INTERVAL = 20000; // ms
 var SUPER_STAR_CHANCE = 10;
@@ -484,7 +486,7 @@ var mainState = {
 		powerup1Audio = game.add.audio("powerup1");
 		powerup2Audio = game.add.audio("powerup2");
 		powerup3Audio = game.add.audio("powerup3");
-		music = new Phaser.Sound(game, "music", 0.5, false);
+		music = new Phaser.Sound(game, "music", 0.5, isModded); // you're welcome
 
 		// end screen ui
 		closeButton = game.add.button(
