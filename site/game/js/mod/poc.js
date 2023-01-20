@@ -140,6 +140,10 @@ try {
             startState.postCreate();
         }
     };
+
+    hasLoaded = false;
+
+    startState.preload();
 } catch (error) {
     alert(error.message);
 }
