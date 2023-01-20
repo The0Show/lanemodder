@@ -115,3 +115,5 @@ startState.preload = function () {
 		startState.postCreate();
 	}
 };
+
+initializedProperly = true;
