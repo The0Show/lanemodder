@@ -49,7 +49,7 @@ waitForElm("canvas").then(() => {
 
     // Yes, this is taken right out of utils.js
     var fileCounter = 0;
-    var files = ["js/mod/poc copy.js"];
+    var files = ["js/mod/poc.js"];
     var retries = parent.window.gameBridge
         ? parent.window.gameBridge.info.numberOfRetries
         : 1;

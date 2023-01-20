@@ -2,18 +2,19 @@
 // (c) 2023 The0Show
 
 // this fixes reloading assets every time the menu loads
-var hasLoaded = false;
+// var hasLoaded = false
 
-SUPER_STAR_CHANCE = 100;
-SUPERSTAR_POINTS = 1;
-STAR_POINTS = 1;
-GAME_SECONDS = 300;
+// SUPER_STAR_CHANCE = 100;
+// SUPERSTAR_POINTS = 1;
+// STAR_POINTS = 1;
+
+let keys = ["splash", "lane", "fret", "tutorialButton", "smallCloseButton"];
 
 startState.preload = function () {
     initRetryLoaders(game, this, startState.postCreate);
 
     if (!hasLoaded) {
-        game.load.image("background", "assets/images/Bg_Space_00.jpg");
+        //game.load.image("background", "assets/images/Bg_Space_00.jpg");
         game.load.image("splash", "assets/images/GS_TITLE.png");
         game.load.image("lane", "assets/images/Path_00.png");
         game.load.image("fret", "assets/images/fret_00.png");
