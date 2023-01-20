@@ -5,8 +5,7 @@
 // var hasLoaded = false;
 
 SpawnType = {
-    NONE: 0,
-    HURDLE: 1,
+    HURDLE: 0,
 };
 
 // SUPER_STAR_CHANCE = 100;
