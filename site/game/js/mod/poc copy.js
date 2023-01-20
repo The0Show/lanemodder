@@ -4,7 +4,10 @@
 // this fixes reloading assets every time the menu loads
 // var hasLoaded = false;
 
-SPAWN_INTERVAL = 0;
+SpawnType = {
+    NONE: 0,
+    HURDLE: 1,
+};
 
 // SUPER_STAR_CHANCE = 100;
 // SUPERSTAR_POINTS = 1;
