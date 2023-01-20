@@ -8,6 +8,8 @@ SpawnType = {
     HURDLE: 0,
 };
 
+GAME_SECONDS = 1;
+
 // SUPER_STAR_CHANCE = 100;
 // SUPERSTAR_POINTS = 1;
 // STAR_POINTS = 1;
