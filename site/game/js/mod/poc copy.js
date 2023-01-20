@@ -5,7 +5,7 @@
 // var hasLoaded = false;
 
 SpawnType = {
-    HURDLE: 0,
+    POWER_UP: 0,
 };
 
 SPAWN_INTERVAL = 0;
