@@ -6,7 +6,8 @@ var hasLoaded = false;
 
 //SUPER_STAR_CHANCE = 100;
 //SUPERSTAR_POINTS = 1;
-STAR_POINTS = 1;
+//STAR_POINTS = 1;
+SPAWN_INTERVAL = 0;
 GAME_SECONDS = 600;
 
 // startState.preload = function () {
